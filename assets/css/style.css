@@ -1,0 +1,186 @@
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+header{
+    width: 100%;
+    height: 620px;
+    background: url(./../images/photo_6050942878466818196_y.jpg) no-repeat ;
+    background-size: cover;
+    box-shadow: inset -195px -628px 13px 24px #0000ff94;
+}
+.hero{
+    width:100%;
+    height:100vh;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left:5%;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar .navbar-toggler{
+    color: white;
+    background-color: white;
+}
+.navbar .navbar-toggler{
+    box-shadow: none;
+}
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.002);
+}
+.dropdown-menu .dropdown-item{
+    width:50px;
+}
+/* section category */
+.category .card-body{
+    background-color: rgb(243,247,253);
+    height: 100px;
+    position: relative;
+    
+}
+
+.category .card-body::before{
+    content:"science";
+    display: inline-block;
+    color:black;
+    position: absolute;
+    top: 20px;
+    left:80px;
+}
+.category .card-body h6{
+    font-size: small;
+    color:rgba(128, 128, 128, 0.741);
+    position: relative;
+    left: 80px;
+    top: 50px;
+
+}
+
+.category .card-body .square{
+    width:35px;
+    height:35px;
+    background-color:white;
+    position:relative;
+    left: 20px;
+    top: 10px;;
+    
+}
+.category .svg-inline--fa{
+    font-size: 24px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    
+} 
+/*  section instructor */
+.Instructor{
+    width: 100%;
+    height:500px;
+    background-color:rgb(243,247,253) ;
+    position: relative;
+    margin-top: 100px;
+}
+.first-part{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.first-part .list-inline li::before{
+    content:"\2714";
+    color:blue;
+    padding-left: 20px;
+    position: relative;
+    left: -10px;
+}
+.second-part{
+    position: absolute;
+    z-index: 1;
+    right:80px;
+    top: -50px;
+}
+.Instructor .second-part img{
+    width: 500px;
+    height: 500px;
+
+}
+/* section best education */
+.best-education{
+    width:100%;
+    height:max-content;
+    background-color:white ;
+
+}
+.best-education .card-body{
+    background-color: transparent;
+    position: relative;
+}
+.best-education .card-body .circle{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    border:2px solid rgb(67, 217, 240);
+    background-color:white;
+    position:relative;
+    left: 42%;
+    top: 2px;
+}
+.best-education .svg-inline--fa{
+    font-size: 34px;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+
+} 
+/* section right course */
+.right-course{
+    width:100%;
+    height: max-content;
+    background-color:rgb(243,247,253) ;
+    padding-bottom: 20px;
+}
+.right-course .card-body .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-course .lesson::before{
+    content:"\1F56E";
+    color:blue;
+
+}
+.right-course .star::before{
+    content:"\22C6";
+    color:orange;
+    font-size: 30px;  
+    margin-left:20px;
+}
+.right-course .card , .right-course .card img {
+    width:300px;
+} 
+/* ovision */
+.orision{
+    width: 100%;
+    height: 600px;
+    background: url(./../images/book.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset -195px -628px 13px 24px #0000ff94;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* about us */
+.about_us{
+    width:100%;
+}
+.about_us .card{
+    border:none;
+}
